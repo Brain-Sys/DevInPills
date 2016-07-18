@@ -12,11 +12,11 @@ namespace DevInPills.ViewModels
 {
     public class ApplicationContext
     {
-        string appId = "1403382409963141";
-        string secretKey = "587b2106d60611fb48be70b981eeba99";
+        string appId = "";
+        string secretKey = "";
         string pageName = "BrainSys";
         string version = "2.6";
-        string access_token = "EAACEdEose0cBAEWLhucrPkuVY2ZCk9W71B3VLNRYpcHYGjKiDbnKx2a0ZAJWm8aWtdffZC2XeaRqpGU6PxMQZCw0rDNcJA1csRI709EpazRRMDiKC26LpZCmhsjnOg1isnlXM6fpZBDdkXAkkjPVZB3FLZCRtpog7l0Fqud1OZCMqZCAZDZD";
+        string access_token = "";
         string request;
         int limit = 100;
         private HttpClient client;
