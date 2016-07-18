@@ -1,0 +1,21 @@
+﻿<Application
+    x:Class="DevInPills.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DevInPills"
+    xmlns:cnv="using:DevInPills.Converters"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <cnv:VisibleWhenTrueConverter x:Key="cnv1" />
+        <cnv:VisibleWhenFalseConverter x:Key="cnv2" />
+        <Color x:Key="red1">#B32317</Color>
+        <Color x:Key="red2">#EE3224</Color>
+        <SolidColorBrush x:Key="brushRed1" Color="{StaticResource red1}" />
+        <SolidColorBrush x:Key="brushRed2" Color="{StaticResource red2}" />
+        <LinearGradientBrush x:Key="redGradient" EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+            <GradientStop Color="{StaticResource red1}" Offset="0.0" />
+            <GradientStop Color="{StaticResource red2}" Offset="0.5" />
+            <GradientStop Color="{StaticResource red1}" Offset="1.0" />
+        </LinearGradientBrush>
+    </Application.Resources>
+</Application>
